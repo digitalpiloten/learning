@@ -8,6 +8,8 @@ require_once($_SERVER["DOCUMENT_ROOT"] . "/lib/SettingsManager.inc.php");
 $database = new DatabaseManager(MYSQL_HOST, MYSQL_DATABASE, MYSQL_USERNAME, MYSQL_PASSWORD);
 $database->connect();
 
+$settingsManager = new SettingsManager($database);
+
 $loggedin = false;
 if(isset($_SESSION["userId"])) {
     $loggedin = true;
