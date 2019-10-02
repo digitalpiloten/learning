@@ -2,6 +2,9 @@
 if(!isset($bootstrap_css)) {
     $bootstrap_css = "https://libs.digitalpiloten.org/bootstrap/4.3.1/css/bootstrap.min.css";
 }
+if(!isset($bootstrap_js)) {
+    $bootstrap_js = "https://libs.digitalpiloten.org/bootstrap/4.3.1/js/bootstrap.min.js";
+}
 if(!isset($_title)) {
     $_title = "DigitalPiloten";
 } else {
