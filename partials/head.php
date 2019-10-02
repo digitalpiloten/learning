@@ -38,6 +38,7 @@ if(!isset($_keywords)) {
         <meta name="robots" content="<?= $_robots ?>">
         <meta name="description" content="<?= $_description ?>">
         <meta name="keywords" content="<?= $_keywords ?>">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link type="text/css" rel="stylesheet" href="<?= $bootstrap_css ?>">
     </head>
     <body>
