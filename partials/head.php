@@ -1,6 +1,13 @@
 <?php
 session_start();
 
+$loggedin = false;
+if(isset($_SESSION["userId"])) {
+    $loggedin = true;
+} else {
+    $loggedin = false;
+}
+
 if(!isset($bootstrap_css)) {
     $bootstrap_css = "https://libs.digitalpiloten.org/bootstrap/4.3.1/css/bootstrap.min.css";
 }
