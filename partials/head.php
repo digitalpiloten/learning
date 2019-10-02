@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 if(!isset($bootstrap_css)) {
     $bootstrap_css = "https://libs.digitalpiloten.org/bootstrap/4.3.1/css/bootstrap.min.css";
 }
