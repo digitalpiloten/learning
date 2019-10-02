@@ -62,6 +62,27 @@ if(!isset($_keywords)) {
                             <a class="nav-link " href="#">Link</a>
                         </li>
                     </ul>
+                    <div class="leftButtons">
+                        <?php
+                            if($loggedin) {
+                                ?>
+                                    <a href="/courses" class="btn btn-primary">
+                                        Kurse
+                                    </a>
+                                    &nbsp;
+                                    <a href="/logout" class="btn btn-secondary">
+                                        Logout
+                                    </a>
+                                <?php
+                            } else {
+                                ?>
+                                    <a href="/login" class="btn btn-primary">
+                                        Login
+                                    </a>
+                                <?php
+                            }
+                        ?>
+                    </div>
                 </div>
             </nav>
         </header>
