@@ -32,3 +32,4 @@ if(!isset($_keywords)) {
         <link type="text/css" rel="stylesheet" href="<?= $bootstrap_css ?>">
     </head>
     <body>
+        <div class="container">
