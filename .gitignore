@@ -231,3 +231,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/php,nodejs,node,windows,macos,mac,linux,jekyll,ruby
+
+config.inc.php
